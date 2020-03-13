@@ -27,7 +27,7 @@ class TestWatermelon(unittest.TestCase):
 
     def test_one(self):
         result = watermelon.divide(1)
-        self.assertEqual(result, True, 'Compare foo with foo')
+        self.assertEqual(result, True, 'Result should be True')
 
 #With the below function we can run the tests with 'python test_watermelon.py'
 #Without this function we would have to do 'python -m unittest test_watermelon.py'
